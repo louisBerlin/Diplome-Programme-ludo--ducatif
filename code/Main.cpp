@@ -13,7 +13,7 @@ Moteur *moteur = new Moteur();
 //variable timer
 int SDL_SetTimer(Uint32 interval, SDL_TimerCallback callback);
 typedef Uint32 (*SDL_TimerCallback)(Uint32 interval);
-SDL_TimerID timer; /* Variable pour stocker le numéro du Timer */
+SDL_TimerID timer; /* Variable pour stocker le numÃ©ro du Timer */
 
 //fonction timer
 Uint32 Timer(Uint32 intervalle, void* param){   
@@ -40,7 +40,7 @@ int main(int argc, char **argv)
         cerr << "Probleme pour initialiser SDL: " << SDL_GetError() << endl;
         return EXIT_FAILURE;
     }    
-    //Mettre un titre à la fenêtre
+    //Mettre un titre Ã  la fenÃªtre
     SDL_WM_SetCaption(".::RPG math::. | bienvenu !!  01.10.07", NULL);
     
     //Double tampon
@@ -121,7 +121,7 @@ int main(int argc, char **argv)
                 case SDL_QUIT:
                     moteur->fin();
                     break;
-                    // evenement quand une touche est appuillée
+                    // evenement quand une touche est appuillÃ©e
                 case SDL_KEYDOWN:
                      
                      //pleine ecran 
@@ -142,7 +142,7 @@ int main(int argc, char **argv)
                      }                                                                                                                             
                     moteur->clavier_DOWN(event.key.keysym.sym);
                     break;
-                    //evenement quand une touche est lachée
+                    //evenement quand une touche est lachÃ©e
                     case SDL_KEYUP:
                     moteur->clavier_UP(event.key.keysym.sym);
                     break;

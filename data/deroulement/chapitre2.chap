@@ -1,0 +1,6 @@
+data/deroulement/chapitre2/maison_couple_1em.ter 695 737 360 390 470 320 1 0 20 414 432 650 374 2 
+data/deroulement/chapitre2/maison_couple_2em.ter 460 480 340 360 718 402 0 250 350 550 610 300 100 0 
+data/deroulement/chapitre2/maison_couple.ter 650 656 350 365 25 425 0 140 248 520 560 320 50 3 170 230 -4 8 190 500 4
+data/deroulement/chapitre2/plage.ter 250 350 -10 20 190 505 2 
+data/deroulement/chapitre2/maison_bucheron.ter 142 256 530 560 200 10 2 130 150 314 332 182 284 5 
+data/deroulement/chapitre2/maison_bucheron_int.ter 152 164 272 296 136 356 4  

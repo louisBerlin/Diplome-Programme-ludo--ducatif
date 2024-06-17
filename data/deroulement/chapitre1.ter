@@ -1,0 +1,6 @@
+data/deroulement/chapitre1/foret.ter 755 810 300 400 10 110 1 250 350 550 610 300 100 2 
+data/deroulement/chapitre1/port.ter -10 0 60 160 740 350 0 250 350 550 610 300 100 2 
+data/deroulement/chapitre1/plage.ter 250 350 -10 20 340 500 1 250 350 550 610 300 100 0 
+data/deroulement/chapitre1/maison_couple_2em.ter 250 350 -10 20 340 500 1 250 350 550 610 300 100 0 
+data/deroulement/chapitre1/maison_couple_1em.ter 695 737 360 390 350 350 3 0 20 414 432 350 350 0 
+data/deroulement/chapitre1/maison.ter 695 737 360 390 350 350 3 0 20 414 432 350 350 0 

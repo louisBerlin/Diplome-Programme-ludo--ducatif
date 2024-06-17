@@ -140,7 +140,7 @@ void Sprite::affiche_selectionee(int x,int y,GLdouble dx,GLdouble dy)
          
 }
 
-// blindé la texure
+// blindÃ© la texure
 void Sprite::blind(){
      
       glEnable(GL_TEXTURE_2D);

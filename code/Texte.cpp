@@ -433,31 +433,31 @@ void Texte::ecrire(char text[],int xt, int yt)
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
-    else if(text[i]=='é'){
+    else if(text[i]=='Ã©'){
  l=9;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
-     else if(text[i]=='è'){
+     else if(text[i]=='Ã¨'){
  l=8;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
-      else if(text[i]=='ç'){
+      else if(text[i]=='Ã§'){
  l=7;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
- else if(text[i]=='à'){
+ else if(text[i]=='Ã '){
  l=0;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
- else if(text[i]=='ê'){
+ else if(text[i]=='Ãª'){
  l=10;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
@@ -523,31 +523,31 @@ void Texte::ecrire(char text[],int xt, int yt)
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  }    
-  else if(text[i]=='î'){
+  else if(text[i]=='Ã®'){
  l=14;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  }    
-   else if(text[i]=='û'){
+   else if(text[i]=='Ã»'){
  l=11;              
  n=15;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  }    
-    else if(text[i]=='ê'){
+    else if(text[i]=='Ãª'){
  l=13;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
-    else if(text[i]=='â'){
+    else if(text[i]=='Ã¢'){
  l=2;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;
  longeur_lettre = 17;
  } 
- else if(text[i]=='à'){
+ else if(text[i]=='Ã '){
  l=0;              
  n=14;                               
  vlongeur_lettre = vlongeur_lettre -6;

@@ -38,20 +38,20 @@ bool Jeu::init(char ftxt[256])
 {  
      
   
-  Timer =false;//lancé le timer
+  Timer =false;//lancÃ© le timer
     
        //variable interne
     char doc [40][256];
     int temp[15];
     char liens[9][256];
-    //chargement des donnée (liste des action)
+    //chargement des donnÃ©e (liste des action)
  
     FILE* fichier = NULL;
          fichier = fopen(ftxt, "r");
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -134,31 +134,31 @@ bool Jeu::init(char ftxt[256])
          couleur=255;
 
          
-    Timer = true;//lancé le timer
+    Timer = true;//lancÃ© le timer
     
     
     
     
 }
 
-//---------------------------------------------------------------rafrechisement des donnée(d'une map a une autre)------------------------------------------------
+//---------------------------------------------------------------rafrechisement des donnÃ©e(d'une map a une autre)------------------------------------------------
 bool Jeu::rafrechire(char ftxt[256]){
      
      
-  Timer =false;//lancé le timer
+  Timer =false;//lancÃ© le timer
     
        //variable interne
     char doc [40][256];
     int temp[15];
     char liens[9][256];
-    //chargement des données (liste des action)
+    //chargement des donnÃ©es (liste des action)
  
     FILE* fichier = NULL;
          fichier = fopen(ftxt, "r");
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -219,7 +219,7 @@ bool Jeu::rafrechire(char ftxt[256]){
       /*FMUSIC_StopSong(musique);
       FMUSIC_FreeSong(musique);
       musique = FMUSIC_LoadSong(liens[0]);
-      FMUSIC_SetLooping(musique, 1); // Répétition infinie
+      FMUSIC_SetLooping(musique, 1); // RÃ©pÃ©tition infinie
       FMUSIC_PlaySong(musique); // On joue la chanson
       */
       
@@ -238,7 +238,7 @@ bool Jeu::rafrechire(char ftxt[256]){
          init_deplacement_saction=1;
          ligne=0; 
       
-    Timer = true;//lancé le timer
+    Timer = true;//lancÃ© le timer
     
 }
 
@@ -279,7 +279,7 @@ void Jeu::affiche(int  x_menu_jeu,int  y_menu_jeu){
              
      terrain->affiche2(0+x_menu_jeu,0+y_menu_jeu);//affichage du terrain dernier couche
                
-     // écrire x et y          
+     // Ã©crire x et y          
      char tx[256];
      char ty[256];
      sprintf(tx,"%d",sprite[0].x);
@@ -290,11 +290,11 @@ void Jeu::affiche(int  x_menu_jeu,int  y_menu_jeu){
   
      
 //-------------texte  et contact avec les sprite----------------------
- if((vcollision_sprite[0]==false)&&(vcollision_sprite[1]==false)&&(vcollision_sprite[2]==false)&&(text_bulle==0)&&(action==1)) //si "action" est actionné dans le vite il est anulé
+ if((vcollision_sprite[0]==false)&&(vcollision_sprite[1]==false)&&(vcollision_sprite[2]==false)&&(text_bulle==0)&&(action==1)) //si "action" est actionnÃ© dans le vite il est anulÃ©
      action=0;   
  else if(mode_automatique==1){
       for(int i=0;i<=2;i++){
-       if((vcollision_sprite[i]==true)&&(action==1)){   // teste si on est prés d'une presonne et si le bouton action est actioné
+       if((vcollision_sprite[i]==true)&&(action==1)){   // teste si on est prÃ©s d'une presonne et si le bouton action est actionÃ©
         if(sprite[i+1].action==0){
                    // positionne les personnages dans le bon sens pour qu'ils se parlent
                    if((sprite[i+1].y>sprite[0].y-10)&&(sprite[i+1].y<sprite[0].y+10)){ 
@@ -346,21 +346,21 @@ void Jeu::affiche(int  x_menu_jeu,int  y_menu_jeu){
 }
 
 
-//------------------------------------------------------------gerée automatiquement les contole---------------------------------------------------------------------
+//------------------------------------------------------------gerÃ©e automatiquement les contole---------------------------------------------------------------------
 void Jeu::Saction(char txt[256]){
 
     //variable interne
     char doc [40][256];
     char temps[256];
     int dep[15];
-    //chargement des données (liste des actions)
+    //chargement des donnÃ©es (liste des actions)
  if(init_saction==1){ 
     FILE* fichier = NULL;
          fichier = fopen(txt, "r");
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -369,7 +369,7 @@ void Jeu::Saction(char txt[256]){
      init_saction=0;
      init_deplacement_saction=1;
  }
-    //déplacement automatique
+    //dÃ©placement automatique
  else if((doc[ligne][0]=='d')){
      //petite initialisation avant le deplacement
      if(init_deplacement_saction==1){                        
@@ -420,7 +420,7 @@ void Jeu::Saction(char txt[256]){
      text_bulle=2;
      action =0;
  } 
-     //asonbrire l'écran
+     //asonbrire l'Ã©cran
  else if((doc[ligne][0]=='c')){         
      couleur = couleur -10;  
       if(couleur ==5)
@@ -431,7 +431,7 @@ else if((doc[ligne][0]=='r')||(doc[ligne][1]=='r')){
      sscanf(doc[ligne],"%s %d",&dep[7],&dep[8]);
      moteur->rafrechiree(dep[8]);
  }
-    //lancé la classe action
+    //lancÃ© la classe action
  else if((doc[ligne][0]=='s')||(doc[ligne][1]=='s')){
      sscanf(doc[ligne],"%s %s",&dep[7],&temps);
      moteur->action_start(temps);

@@ -52,7 +52,7 @@ bool Menu::init()
 	son1 = FSOUND_Sample_Load(FSOUND_FREE, "data/audio/wind1.wav", 0, 0, 0);
 	son2 = FSOUND_Sample_Load(FSOUND_FREE, "data/audio/windchimes.wav", 0, 0, 0);
 	
-	//lancé la musique
+	//lancÃ© la musique
     FSOUND_SetVolume(FSOUND_ALL, 100);
 	FSOUND_Stream_SetLoopCount(musique_intro, -1);
 	FSOUND_Stream_Play(FSOUND_FREE, musique_intro);

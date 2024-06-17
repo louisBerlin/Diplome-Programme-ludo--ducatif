@@ -42,7 +42,7 @@ class Jeu
 	 //autre
 	 int couleur;
 	
-	 //gerée sprite
+	 //gerÃ©e sprite
 	 bool vcollision_sprite[2];
 	 struct variable_sprite{
       int sance;      

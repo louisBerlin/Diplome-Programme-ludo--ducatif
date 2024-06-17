@@ -58,9 +58,9 @@ void Action::chargement(char lien[256]){
      
      
      
-     Timer =false;//lancé le timer
+     Timer =false;//lancÃ© le timer
      mode=1;
-    //chargement des données (liste des action)
+    //chargement des donnÃ©es (liste des action)
     char doc [40][256];
     int temp[15];
     int ligne = 0;
@@ -71,7 +71,7 @@ void Action::chargement(char lien[256]){
 
      if(fichier != NULL){ 
        int a=0;
-         while (fgets(doc[a],256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[a],256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              a++;
          }
@@ -145,7 +145,7 @@ void Action::chargement(char lien[256]){
      
      
      couleur=255;
-     Timer = true;//lancé le timer
+     Timer = true;//lancÃ© le timer
      
 }
 //Fonction d'affichage

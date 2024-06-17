@@ -41,7 +41,7 @@ bool Moteur::init()
    }*/
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -54,14 +54,14 @@ bool Moteur::init()
  
         //variable interne
    
-    //chargement des donnée (liste des action)
+    //chargement des donnÃ©e (liste des action)
  
    // FILE* fichier = NULL;
          fichier = fopen(lien_chapitre[chapitre], "r");
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -208,7 +208,7 @@ void Moteur::chapitre_suivant(int nvx,int nvy){
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -240,7 +240,7 @@ void Moteur::chargement(){
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -255,7 +255,7 @@ void Moteur::chargement(){
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -286,7 +286,7 @@ void Moteur::nouvelle_partie(){
 
      if (fichier != NULL){ 
        int i=0;
-         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+         while (fgets(doc[i], 256, fichier) != NULL) // On lit le fichier tant qu'on ne reÃ§oit pas d'erreur (NULL)
          {       
              i++;
          }
@@ -400,7 +400,7 @@ void Moteur::m_chargement(char m_lien[256])
 
 void Moteur::m_play()
 {   
-    FMUSIC_SetLooping(musique, 1); // Répétition infinie
+    FMUSIC_SetLooping(musique, 1); // RÃ©pÃ©tition infinie
     FMUSIC_PlaySong(musique); // On joue la chanson
 }
 

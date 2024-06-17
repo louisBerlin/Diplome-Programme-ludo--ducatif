@@ -162,7 +162,7 @@ bool Terrain::colision(int x,int x2,int y,int y2)
         return true;
             
      p = (Uint8*)Image_collision->pixels + (y+iy) * Image_collision->pitch + (x+ix) * Image_collision->format->BytesPerPixel;
-     /* Récupère la valeur RGB du premier pixel (0, 0) d'une surface */
+     /* RÃ©cupÃ¨re la valeur RGB du premier pixel (0, 0) d'une surface */
      SDL_GetRGB(*(Uint32*)p, Image_collision->format, &r, &g, &b);  
                   
      if(((int)r+(int)g+(int)b)==0)

@@ -1,0 +1,9 @@
+data/fond_ecran/maison_couple_1em1.png data/fond_ecran/maison_couple_1em2.png data/fond_ecran/maison_couple_1emc.png 3
+data/characters/hero.png 40 50 280 210
+data/characters/vieille.png 40 50 2 169 3 149 0 Je_ne_trouve_plus_rien_dans_cette_cuisine! Alors_tu_as_parlé_au_bûcheron_?
+data/characters/vieu.png 40 50 2 649 1 137 0 RRrrrrrrrrrrrrrrrr__rrrrrrrrrrrr. Sssss_hein_?_Quoi_Rrrrrrrrrrrrrrrrrrrrrrr.
+data/characters/oiseau.png 40 40 0 -100 900 4700 0 a a
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action2.action
+data/deroulement/chapitre1/action2.action

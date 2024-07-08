@@ -1,0 +1,9 @@
+data/fond_ecran/maison_bucheron_int1.png data/fond_ecran/maison_bucheron_int2.png data/fond_ecran/maison_bucheron_intc.png 3
+data/characters/hero.png 40 50 280 210 
+data/characters/bucheron.png 40 50 2 464 3 326 0 Ah_tu_es_toujour_la_? Du_bois,_toujour_du_bois.
+data/characters/fille_bucheron.png 40 50 2 400 2 3000 0 b b
+data/characters/oiseau.png 40 40 0 -100 900 4700 0 a a
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre2/action1.action
+data/deroulement/chapitre2/action1.action

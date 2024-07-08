@@ -1,0 +1,9 @@
+data/fond_ecran/maison_bucheron1.png data/fond_ecran/maison_bucheron2.png data/fond_ecran/maison_bucheronc.png 3
+data/characters/hero.png 40 50 280 210
+data/characters/chat.png 40 50 1 380 25 745 0 miaouuuuuuuu maouuuu
+data/characters/fille_bucheron.png 40 50 0 500 280 332 0 Alors_vous_avez_trouvé_mon_père_? Il_travaille_tout_le_temps_à_la_maison.
+data/characters/ecureil.png 30 30 0 100 500 100 0 cui cui
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action2.action
+data/deroulement/chapitre1/action2.action

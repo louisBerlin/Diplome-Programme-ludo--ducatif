@@ -1,0 +1,1 @@
+e data/audio/theme2c.mid data/action/exercice.png  data/icons/icone.png 0

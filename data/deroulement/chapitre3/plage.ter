@@ -1,0 +1,9 @@
+data/fond_ecran/plage.png data/fond_ecran/plage2.png data/fond_ecran/plage_c.png 3
+data/characters/hero.png 40 50 350 300 2
+data/characters/oiseau2.png 40 40 0 1000 200 500 0 a a
+data/characters/oiseau.png 40 40 0 200 900 475 0 a a
+data/characters/oiseau.png 40 40 0 10 900 470 0 a a
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action1.action
+data/deroulement/chapitre1/action2.action

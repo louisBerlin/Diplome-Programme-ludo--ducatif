@@ -1,0 +1,11 @@
+d 1 0 464 422 326
+d 0 0 182 300 284
+t Le_bûcheron:_bonjour_mon_garçon,_j'ai_entendu_ton_histoire, je_peux_t'aider,_mais_j'ai_d'abord_besoin_de_ton_aide.
+d 1 0 422 464 326
+d 1 0 466 464 326
+t Le_bûcheron:_oui_alors_peux-tu m'aider_? je_vais_t'exposer_mon problème.
+s data/deroulement/chapitre2/text.txt
+t Le_bûcheron:_C'était_donc_ça_! Merci_de_m'avoir_aidé.
+t Le_bûcheron:_La_démo_touche_à_sa_fin_! J'espère_que_ça_vous_a_plu.
+h 136 362
+f

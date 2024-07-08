@@ -1,0 +1,9 @@
+data/fond_ecran/maison_couple1.png data/fond_ecran/maison_couple2.png data/fond_ecran/maison_couplec.png 3
+data/characters/hero.png 40 50 350 350 2
+data/characters/chat.png 30 40 1 450 100 734 0 mmmmaouuuuuu mmmmmmaaaouuuuu
+data/characters/poule.png 30 30 0 200 500 470 0 cooottte coooottttte
+data/characters/pousin.png 20 20 0 250 500 470 0 piou_piou  piou
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action1.action
+data/deroulement/chapitre1/action2.action

@@ -1,0 +1,9 @@
+data/fond_ecran/maison_couple_1em1.png data/fond_ecran/maison_couple_1em2.png data/fond_ecran/maison_couple_1emc.png 3
+data/characters/hero.png 40 50 280 210
+data/characters/vieille.png 40 50 0 48 265 150 0 Elle_est_où_encore_cette_casserole_? Tu_n'es_pas_encore_allé_chez_le_bûcheron?
+data/characters/vieu.png 40 50 2 508 3 150 0 Oui_le_bûcheron_peut_t'aider. Il_habite_la_maison_haut_dessus_de_la_notre.
+data/characters/oiseau.png 40 40 0 -100 900 4700 0 a a
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action2.action
+data/deroulement/chapitre1/action2.action

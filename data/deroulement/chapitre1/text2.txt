@@ -1,0 +1,25 @@
+c data/audio/theme2c.mid data/action/028167_1024.png 500 100 400 50 0
+La vieille femme lui expliqua qu'auparavant,
+son village se trouvait au bord de l'océan,
+et qu'un jour, la force de la nature décida de
+briser la terre en deux, et par une folle tempête,
+de pousser leur village loin dans l'océan.
+A la fin de la tempête, les villageois s'aperçurent
+qu'ils vivaient sur une île, tellement loin dans
+l'océan qu'ils ne voyaient plus la terre. Les villageois,
+effarouchés, avaient essayés de construire toutes sortes
+d'embarcations : des barques, des voiliers,
+des radeaux... même l'artisan du village avait essayé
+de construire un canot en osier. Le forgeron avait lui aussi
+tenté de construire un bateau en métal, mais tous coulaient les
+uns après les autres, à peine mis à l'eau. Les villageois
+comprirent alors qu'aucun d'entre eux n'avait les
+compétences nécessaires pour construire un bateau.
+Ils durent se résigner à vivre sur l'île.
+Ils espérèrent que quelqu'un découvrit leur disparition,
+mais même avant d'être une île, le village était
+tellement éloigné que tout le monde en ignorait
+l'existence. Tom, qui trouvait l'histoire captivante,
+se souvint qu'il était attendu
+par ses soeurs.
+-

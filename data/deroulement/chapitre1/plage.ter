@@ -1,0 +1,9 @@
+data/fond_ecran/plage.png data/fond_ecran/plage2.png data/fond_ecran/plage_c.png 3
+data/characters/191-Down03.png 40 50 350 300 2
+data/characters/vieille.png 40 50 0 2000 300 3500 0 bonjour je_cherche_un_oiseau
+data/characters/vieu.png 40 50 1 400 2 3000 0 ahhhhhh_je_souffre mon_dos
+data/characters/oiseau.png 40 40 0 900 100 470 0 a a
+data/audio/017-Theme06.mid
+0 0
+data/deroulement/chapitre1/action1.action
+data/deroulement/chapitre1/action2.action

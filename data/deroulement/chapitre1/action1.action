@@ -1,0 +1,12 @@
+s data/deroulement/chapitre1/text.txt
+d 1 1 -50 106 350
+t La_vieille_femme:_Oh_mais,_il_y_a_quelqu'un_là_bas? "appuyer_sur_"S"_pour_voir_la_suite"
+d 1 1 100 250 350
+d 1 0 350 400 250
+d 1 1 250 300 400
+d 1 0 400 394 300
+t La_vieille_femme:_Le_pauvre_garçon,_que_fait_t-il_ici? "appuyer_sur_"S"_pour_voir_la_suite"
+t La_vieille_femme:_Je_vais_vite_te_ramener_à_la_maison! "appuyer_sur_"S"_pour_voir_la_suite"
+c
+d 0 0 295 280 210
+r 3 

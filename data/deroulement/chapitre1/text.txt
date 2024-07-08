@@ -1,0 +1,20 @@
+c data/audio/theme2c.mid data/action/hokusai.png 400  200 400 100 0
+C'est l'histoire d'un petit garçon qui se nommait Tom.
+Il vivait au bord de l'océan, avec ses deux soeurs et
+son chien. Son rêve était de découvrir des endroits inconnus.
+Un jour d'été, il décida de partir à l'aventure
+sur la petite barque, amarrée près de la maison,
+alors qu'il avait l'interdiction d'utiliser
+la barque tout seul, car l'océan pouvait être dangereux...
+Mais notre petit Tom, qui était un grand rêveur,
+se fichait des interdictions.
+Assez vite, il comprit pourquoi il
+n'aurait pas dû braver l'interdit.
+Sa petite barque se fit emportée au loin par une
+mer déchaînée.
+Les petits bras de Tom n'étaient pas assez forts
+pour lutter contre l'océan.
+Une grande vague renversa la barque,
+et le petit Tom ne vit plus que le bleu de la mer
+avant de s'évanouir.
+-

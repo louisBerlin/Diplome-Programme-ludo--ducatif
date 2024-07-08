@@ -1,0 +1,23 @@
+d 1 1 400 270 470
+d 1 0 470 400 270
+d 0 1 205 210 280
+t le_garçon:_Mais_où_suis_-je??? "appuyer_sur_"S"_pour_voir_la_suite"
+d 0 0 275 280 210
+t le_garçon:_Qui_êtes_vous? "appuyer_sur_"S"_pour_voir_la_suite"
+t La_vieille_femme:_Ahh_tu_te_réveilles_enfin!_Calme_toi_mon_garçon. "appuyer_sur_"S"_pour_voir_la_suite"
+d 1 0 400 334 270
+d 1 1 270 210 334
+d 1 0 334 310 210
+t La_vieille_femme:_Je_t'ai_retrouvé_sur_la_plage_ce_matin, _mais_comment_es_tu_arrivé_ici?
+d 2 1 400 270 470
+d 2 0 470 280 270
+d 2 1 270 250 280
+t Le_vieille_homme:_Oui,_que_fais_tu_ici_? _Jamais_personne_n'est_arrivé_ici!
+s data/deroulement/chapitre1/text2.txt
+t le_garçon:_Comment_faire??? "appuyer_sur_"S"_pour_voir_la_suite"
+t Le_vieille_homme:_Le_bûcheron_pourra_sûrement_t'aider_! Je_vais_lui_parler_de_toi.
+t La_vieille_femme:_il_faut_que_tu_te_reposes, _dors_maintenant_tu_le_verras_demain.
+c
+e Une_nuit_plus_tard ...
+h 200 200
+f 

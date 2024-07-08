@@ -1,0 +1,9 @@
+data/fond_ecran/maison_couple_1em1.png data/fond_ecran/maison_couple_1em2.png data/fond_ecran/maison_couple_1emc.png 3
+data/characters/hero.png 40 50 280 210 
+data/characters/vieille.png 40 50 0 4000 4000 3500 0 b b
+data/characters/vieu.png 40 50 1 400 2 3000 0 b b
+data/characters/oiseau.png 40 40 0 -100 900 4700 0 a a
+data/audio/017-Theme06.mid
+1 1
+data/deroulement/chapitre1/action2.action
+data/deroulement/chapitre1/action2.action
